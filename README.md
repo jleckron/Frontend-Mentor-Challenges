@@ -9,7 +9,7 @@ Basic UI mockups and recreations with no funtionality
 ### [3-Column Preview Card Component](https://jleckron.github.io/Frontend-Mentor-Challenges/3-column-preview-card-component-main/index.html)
 
 ## Level 2:
-Slightly more advances front ends coupled with some real Javascript functionalities
+Slightly more advanced front ends coupled with some real Javascript functionalities
 
 ### [Tip Calculator](https://jleckron.github.io/Frontend-Mentor-Challenges/tip-calculator-app-main/index.html)
 
