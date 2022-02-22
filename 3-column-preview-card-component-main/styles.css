@@ -1,0 +1,152 @@
+@font-face{
+    font-family: lexendDeca;
+    src: url(fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: bigShoulders;
+    src: url(fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+    font-weight: 700;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: lexendDeca;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 68vw;
+    height: 60vh;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+}
+
+.image {
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+
+.sedanImg{
+    background-image: url(images/icon-sedans.svg);
+}
+
+.suvImg{
+    background-image: url(images/icon-suvs.svg);
+}
+
+.luxuryImg{
+    background-image: url(images/icon-luxury.svg);
+}
+
+.title {
+    font-family: bigShoulders;
+    font-size: 28px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
+}
+
+.description {
+    line-height: 1.25rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.orangeText {
+    color:hsl(31, 77%, 52%);
+}
+
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cyanText {
+    color:hsl(184, 100%, 22%);
+}
+
+.teal {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.tealText {
+    color:hsl(179, 100%, 13%);
+}
+
+@media (max-width: 375px){
+    .container {
+        width: 100vw;
+        height: 100vh;
+        margin: 50px;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 60%;
+        height: 60%;
+    }
+    .orange {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .teal {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+.learnButton {
+    width: 100px;
+    height: 30px;
+    outline: white solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.learnButton:hover {
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
