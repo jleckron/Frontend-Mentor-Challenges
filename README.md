@@ -16,7 +16,6 @@ Slightly more advanced front ends coupled with some real Javascript functionalit
 ## Level 3 (Intermediate):
 Intermediate responsive layout designs with some JavaScript funtionalities
 
-### [EasyBank](https://github.com/jleckron/Frontend-Mentor-Challenges/blob/main/easybank/public/design/desktop-design.jpg)
-(Built with React and is not live)
+### [EasyBank](https://github.com/jleckron/Frontend-Mentor-Challenges/blob/main/easybank/public/design/desktop-design.jpg) (Built with React and is not live)
 
 ### More to come soon...
