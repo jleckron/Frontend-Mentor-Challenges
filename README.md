@@ -2,7 +2,7 @@
 A collection of challenges sourced from [Frontend Mentor](https://www.frontendmentor.io/home)
 
 ## Level 1 (Newbie):
-Basic UI mockups and recreations with no funtionality
+Basic UI mockups and recreations with no functionality
 
 ### [Order Summary Component](https://jleckron.github.io/Frontend-Mentor-Challenges/order-summary-component-main/index.html)
 
@@ -14,8 +14,8 @@ Slightly more advanced front ends coupled with some real Javascript functionalit
 ### [Tip Calculator](https://jleckron.github.io/Frontend-Mentor-Challenges/tip-calculator-app-main/index.html)
 
 ## Level 3 (Intermediate):
-Intermediate responsive layout designs with some JavaScript funtionalities
+Intermediate responsive layout designs with some JavaScript functionalities
 
-### [EasyBank](https://github.com/jleckron/Frontend-Mentor-Challenges/blob/main/easybank/public/design/desktop-design.jpg) (Built with React and is not live)
+### [EasyBank](https://jleckron.github.io/easybank/) 
 
 ### More to come soon...
